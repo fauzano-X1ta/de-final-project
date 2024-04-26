@@ -100,17 +100,17 @@ This container runs a Cassandra database server. Cassandra is a NoSQL database k
 
 ---
 ```
-[+] Running 10/10
- ✔ Container cassandra                                      Started                                                                                               0.0s 
- ✔ Container data-engineering-final-project-spark-master-1  Started                                                                                               0.0s 
- ✔ Container zookeeper                                      Healthy                                                                                               0.0s 
+✔ Container grafana                                        Started                                                                                               0.2s 
  ✔ Container data-engineering-final-project-postgres-1      Started                                                                                               0.0s 
- ✔ Container data-engineering-final-project-spark-worker-1  Started                                                                                               0.0s 
+ ✔ Container zookeeper                                      Healthy                                                                                               0.0s 
+ ✔ Container cassandra                                      Started                                                                                               0.0s 
+ ✔ Container data-engineering-final-project-spark-master-1  Started                                                                                               0.3s 
  ✔ Container broker                                         Healthy                                                                                               0.0s 
  ✔ Container data-engineering-final-project-webserver-1     Healthy                                                                                               0.0s 
+ ✔ Container schema-registry                                Started                                                                                               0.0s 
  ✔ Container data-engineering-final-project-scheduler-1     Started                                                                                               0.0s 
- ✔ Container schema-registry                                Healthy                                                                                               0.0s 
- ✔ Container control-center                                 Started                                                                                               0.0s   
+ ✔ Container data-engineering-final-project-spark-worker-1  Started                                                                                               0.2s 
+ ✔ Container control-center                                 Created                                                                                              0.0s   
 ```
 
 ---
