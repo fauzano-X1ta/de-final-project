@@ -1,0 +1,10 @@
+apiVersion: 1
+
+datasources:
+- name: Cassandra
+  type: cassandra
+  access: proxy
+  url: http://cassandra_db:9042
+  database: airflow
+  jsonData:
+    cassandraVersion: 4
